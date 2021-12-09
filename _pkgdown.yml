@@ -48,11 +48,19 @@ navbar:
     - text: Contribute
       href: articles/contribute.html
     - text: FAQ
-      href: articles/faqs.html
+      menu:
+        - text: Frequently Asked Questions
+          href: articles/faqs.html
+        - text: GitHub Issues Guidelines
+          href: articles/github_issues.html
     - text: News
       href: news/index.html
-
-  right:
+    - text: "Try Giotto"
+      menu:
+        - text: "Docker"
+          href: articles/docker.html
+        - text: "Binder"
+          href: articles/binder.html
     - icon: fa-github
       href: https://github.com/RubD/Giotto
 
